@@ -14,3 +14,6 @@ Thumbs.db
 # Ignore IDE settings
 .vscode/
 .idea/
+
+# ignore build output
+dist/

@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cowboys Ipsum</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <form class="wrapper">
+        <h1 class="main-title">Cowboys Ipsum</h1>
+        <nav class="main-options">
+          <div class="cell input">
+            <input type="number" name="nbr" value="3" min="1" max="15" />
+          </div>
+
+          <div class="cell radios">
+            <div class="cell radio">
+              <label>
+                <input type="radio" name="type" value="Paragraphs" checked />
+                <span class="lbl">Paragraphes</span>
+              </label>
+            </div>
+            <div class="cell radio">
+              <label>
+                <input type="radio" name="type" value="Sentences" />
+                <span class="lbl">Phrases</span>
+              </label>
+            </div>
+            <div class="cell radio">
+              <label>
+                <input type="radio" name="type" value="Words" />
+                <span class="lbl">Mots</span>
+              </label>
+            </div>
+            <div class="cell radio">
+              <label>
+                <input type="radio" name="type" value="Lists" />
+                <span class="lbl">Listes</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="cell button">
+            <input type="submit" class="btn js-generate" value="Générer" />
+          </div>
+        </nav>
+      </form>
+    </header>
+
+    <main class="main-content">
+      <div class="wrapper js-content"></div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="wrapper js-footer"></div>
+    </footer>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
