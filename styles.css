@@ -1,0 +1,29 @@
+:root {
+  --grey-light: #c8c8c8;
+  --grey: #7f7f7f;
+  --grey-dark: #030301;
+}
+
+.btn {
+  background-color: var(--grey);
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+
+  &:hover,
+  &:focus {
+    background-color: color-mix(in srgb, var(--grey-dark), white 10%);
+  }
+}
